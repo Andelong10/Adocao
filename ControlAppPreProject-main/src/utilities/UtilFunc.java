@@ -5,12 +5,12 @@ public class UtilFunc {
 	public UtilFunc(){}
 	
 	public static boolean validadorSN(String resposta) {
-		boolean sn = null != null;
-		if (resposta.equals("s") || resposta.equals("n") && resposta != null) {
-			sn = true;
+		boolean SN = null != null;
+		if (resposta.equals("S") || resposta.equals("N") && resposta != null) {
+			SN = true;
 		} else {
-			sn = false;
+			SN = false;
 		}
-		return sn;
+		return SN;
 	}
 }
