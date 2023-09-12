@@ -1,6 +1,6 @@
 public class Animais {
 
-    String NomeAnimal;
+    String NomeAnimal1;
     Integer TipoAnimal;
     Integer IdadeAnimal;
     String ImagemAnimal;
@@ -9,7 +9,7 @@ public class Animais {
 
     public Animais(String NomeAnimal, Integer TipoAnimal, Integer IdadeAnimal, String ImagemAnimal, Integer IDUsuarioDoador, Integer Disponivel)
     {
-        this.NomeAnimal = this.NomeAnimal;
+        this.NomeAnimal1 = this.NomeAnimal;
         this.TipoAnimal = this.TipoAnimal;
         this.IdadeAnimal = this.IdadeAnimal;
         this.ImagemAnimal = this.ImagemAnimal;
